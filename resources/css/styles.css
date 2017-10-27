@@ -15,35 +15,48 @@ h1 {
 h2 {
   font-size: 32px;
   font-weight: bold;
-  color: grey;
 }
 
 h3 {
   font-size: 23px;
   font-weight: bold;
-  color: grey;
 }
 
 p {
   font-size: 14px;
-  color: gray;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  line-height: 36px;
 }
 
 /* Style for header */
 .header {
-  background-image: url("./resources/img/the-flatiron-building.png");
+  background-image: url("../img/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 /* Style for separator */
 .separator {
-  background-image: url("./resources/img/the-flatiron-building.png");
+  background-image: url("../img/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-position: right;
   font-size: 23px;
   font-weight: bold;
   color: white;
 }
 
 /* Style for CopyRight footer */
-.copyright {
+.footer {
   text-align: left;
   font-size: 11px;
   background-color: dimgray;
