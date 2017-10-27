@@ -1,0 +1,51 @@
+html {
+  font-family: Helvetica;
+  background-color: white;
+  text-align: center;
+}
+
+
+/* Headers of the page */
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: grey;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: grey;
+}
+
+p {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Style for header */
+.header {
+  background-image: url("./resources/img/the-flatiron-building.png");
+}
+
+/* Style for separator */
+.separator {
+  background-image: url("./resources/img/the-flatiron-building.png");
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Style for CopyRight footer */
+.copyright {
+  text-align: left;
+  font-size: 11px;
+  background-color: dimgray;
+  color: white;
+}
